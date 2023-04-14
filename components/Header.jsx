@@ -4,7 +4,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <nav className='flex justify-between p-3 bg-[#B0FFFF] align-middle border-b-2 border-black '>
+    <nav className='flex justify-between p-3 bg-[#B0FFFF] align-middle border-b-2 border-black dark:bg-black dark:border-white '>
         <div>
             <h1 className='font-bold text-2xl '>Fab Cheat</h1>
         </div>

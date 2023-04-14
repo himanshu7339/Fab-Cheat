@@ -4,7 +4,7 @@ import TypeWriter from "./Typewriter";
 const text = ["Your Hand Cheat Sheet for Programmers"]
 const Home = () => {
   return (
-    <div className="h-[100vh] bg-[#B0FFFF]">
+    <div className="h-[100vh] bg-[#B0FFFF] dark:bg-black">
       <div>
         
         <h3 className="text-center text-2xl font-extrabold p-10">

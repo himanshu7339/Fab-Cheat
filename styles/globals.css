@@ -8,8 +8,8 @@ body{
   font-weight: 400;
 }
 
-@layer base{
-  /* body {
+/* @layer base{
+  body {
       @apply dark:bg-black bg-white
-  } */
-}
+  }
+} */

@@ -10,7 +10,7 @@ const DarkMode = () => {
   return (
     <MdDarkMode
       onClick={() => (theme == "dark" ? setTheme("light") : setTheme("dark"))}
-      className=" text-white text-3xl"
+      className=" text-white text-3xl cursor-pointer"
     />
   );
 };
