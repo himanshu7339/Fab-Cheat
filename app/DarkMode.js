@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import { MdDarkMode } from "react-icons/md";
 
@@ -10,7 +10,7 @@ const DarkMode = () => {
   return (
     <MdDarkMode
       onClick={() => (theme == "dark" ? setTheme("light") : setTheme("dark"))}
-      className=" text-white text-3xl cursor-pointer"
+      className=" text-2xl cursor-pointer dark:text-white text-black "
     />
   );
 };

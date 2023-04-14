@@ -16,6 +16,8 @@ const Home = () => {
           Take Refreace And Make Your Project Easy
         </h1>
       </div>
+
+      <div className="text-center text-3xl p-4">Popular Cheat Sheet</div>
     </div>
   );
 };

@@ -18,6 +18,7 @@ export default async (req, res) => {
   } else if (req.method === "PUT") {
     const { post_id } = req.query;
     const post = {
+      image:req.body.image,
       title: req.body.title,
       body: req.body.body,
       category: req.body.category,
