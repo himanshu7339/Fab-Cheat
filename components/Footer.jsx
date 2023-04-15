@@ -8,13 +8,13 @@ const Footer = () => {
       <div className="flex flex-col gap-3">
         <p>Social Media </p>
         <Link href={"/www.facebook.com"}>
-          <BsFacebook className="text-3xl" />
+          <BsFacebook className="text-3xl text-blue-500" />
         </Link>
         <Link href={"/www.facebook.com"}>
-          <BsYoutube className="text-3xl" />
+          <BsYoutube className="text-3xl text-red-600" />
         </Link>
         <Link href={"/www.facebook.com"}>
-          <BsInstagram className="text-3xl" />
+          <BsInstagram className="text-3xl text-pink-500" />
         </Link>
       </div>
 
